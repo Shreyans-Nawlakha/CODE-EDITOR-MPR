@@ -1,0 +1,34 @@
+/* *{
+    padding: 0px;
+} 
+#main{
+    color: red;
+    font-size: 25px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+} */
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+  }
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.image{
+    filter: blur(5px);
+}
+    
