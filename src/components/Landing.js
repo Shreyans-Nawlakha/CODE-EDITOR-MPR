@@ -59,7 +59,7 @@ const Landing = () => {
       language_id: language.id,
       // encode source code in base64
       source_code: btoa(code),
-      stdin: btoa(customInput),
+      // stdin: btoa(customInput),
     };
     const options = {
       method: "POST",
