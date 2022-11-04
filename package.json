@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Shreyans-Nawlakha.github.io/CODE-EDITOR-MPR",
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.4.4",
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
